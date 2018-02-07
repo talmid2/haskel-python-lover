@@ -1,0 +1,15 @@
+﻿λ let x = 4 in x * x
+16
+:: Num a => a
+λ  
+Let them eat cake
+
+You just bound a variable. That is, you bound x to the expression 4, and then you can write x in some code (the body) and it will mean the same as if you'd written 4.
+
+It's like this: let var = expression in body
+The in part just separates the expression from the body.
+
+For example try: let x = 8 * 10 in x + x
+
+So if we wanted to get the age of our villain, we could do:
+let villain = (28,"chirs") in fst villain
